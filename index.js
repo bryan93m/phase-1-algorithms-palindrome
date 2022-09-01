@@ -1,9 +1,20 @@
+
+
 function isPalindrome(word) {
-  // Write your algorithm here
+  const len = word.length;
+  for(let i=0; i < len/2; i++){
+    if(word[i] !== word[len - 1 - i]){
+      return false;
+    } return true;
+  }
 }
 
 /* 
-  Add your pseudocode here
+  // take word as a string
+  // reverse the word and split it into individual characters
+  // reverse the characters
+  // re-join the characters
+  // compare the word and the reversed word
 */
 
 /*
